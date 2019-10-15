@@ -3,7 +3,13 @@
 ## 기본구조
 
 * 특정 검색어의 원하는 정보를 내 컴퓨터에 저장
+
 * `request` package 사용(설치필요)
+
+  ```git
+  $ pip install requests
+  ```
+
   * `requests.get(url)`
   * `requests.get(url).text` : 스크랩한 내용 출력(코드형태)
   * `requests.get(url).status_code` : status code 출력
